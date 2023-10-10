@@ -45,6 +45,7 @@ http://127.0.0.1/api/public/postDelete
 Payload
 
 JSON Payload postName:
+
 Request payload:
 - {
   "lname":"hortizuela",
@@ -52,9 +53,11 @@ Request payload:
 }
 
  JSON Payload printName:
+ 
 Request payload:
 
 JSON Payload updateName:
+
 Request payload:
 - {
   "id":1,
@@ -63,6 +66,7 @@ Request payload:
 }
 
 JSON Payload deleteName:
+
 Request payload:
 - {
   "id":1
@@ -70,12 +74,14 @@ Request payload:
 
 ## Response
 JSON Payload postName:
+
 - Response payload:
 - {
          "status":"success","data":null
 }
 
 JSON Payload printName:
+
 - Response payload:
 - {
          "status":"success","data":["lname":"hortizuela","fname":"manny","lname":"licayan","fname":"arnold"]
@@ -83,6 +89,7 @@ JSON Payload printName:
 
 
 JSON Payload updateName:
+
 - Response payload:
 - {
          "status":"success","data":null
@@ -90,6 +97,7 @@ JSON Payload updateName:
 
 
 JSON Payload deleteName:
+
 - Response payload:
 - {
          "status":"success","data":null
