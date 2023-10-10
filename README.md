@@ -46,7 +46,7 @@ Payload
 
 JSON Payload postName:
 Request payload:
-{
+- {
   "lname":"hortizuela",
    "fname":"manny"
 }
@@ -56,7 +56,7 @@ Request payload:
 
 JSON Payload updateName:
 Request payload:
-{
+- {
   "id":1,
   "lname":"wick",
    "fname":"john"
@@ -64,34 +64,34 @@ Request payload:
 
 JSON Payload deleteName:
 Request payload:
-{
+- {
   "id":1
 }
 
 ## Response
 JSON Payload postName:
-Response payload:
-{
+- Response payload:
+- {
          "status":"success","data":null
 }
 
 JSON Payload printName:
-Response payload:
-{
+- Response payload:
+- {
          "status":"success","data":["lname":"hortizuela","fname":"manny","lname":"licayan","fname":"arnold"]
 }
 
 
 JSON Payload updateName:
-Response payload:
-{
+- Response payload:
+- {
          "status":"success","data":null
 }
 
 
 JSON Payload deleteName:
-Response payload:
-{
+- Response payload:
+- {
          "status":"success","data":null
 }
 
