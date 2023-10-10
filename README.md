@@ -11,7 +11,7 @@ JSON POST
 ## API
 Description
 
-This JSON POST API endpoint enables clients to send structured data to a server for actions like creating new records or updating existing ones. Data is transmitted in JSON format within the request body, making it versatile and easy to work with. Upon processing, the server responds with an HTTP status code and a JSON response containing relevant information. It can be used for various purposes, including user registration, data updates, or triggering custom processes, with authentication measures in place for secure access. Proper documentation should be referenced for specific endpoint requirements and error handling guidelines.
+This JSON POST API endpoint enables clients to send structured data to a server for actions like creating new records or updating existing ones. Data is transmitted in JSON format within the request body, making it versatile and easy to work with. Upon processing, the server responds with an HTTP status code and a JSON response containing relevant information. It can be used for various purposes, including user registration, data updates, or triggering custom processes, with authentication measures in place for secure access. Proper documentation should be referenced for specific endpoint requirements and error-handling guidelines.
 
 
 
@@ -24,20 +24,20 @@ Describe the
 available endpoints, their functions, and the required parameters.
 
 http://127.0.0.1/api/public/postName
-functions: insert data into the database
-parameteres: fname , lname
+- functions: insert data into the database
+- parameteres: fname , lname
 
 http://127.0.0.1/api/public/postUpdate
-functions: update the existing data into the database
-parameters: id , lname, fname
+- functions: update the existing data in the database
+- parameters: id , lname, fname
 
 http://127.0.0.1/api/public/postPrint
-functions: It will display the data inside the database
-parameters: none
+- functions: It will display the data inside the database
+- parameters: none
 
 http://127.0.0.1/api/public/postDelete
-functions: It will delete data from the database
-parameters: id
+- functions: It will delete data from the database
+- parameters: id
  
 
 
@@ -175,6 +175,6 @@ Include contact
 information for inquiries or support.
 
 Jaynard A. Raqueño 
-jaynard.raqueno@student.dmmmsu.edu.ph
-09925915896
-09772104738
+- jaynard.raqueno@student.dmmmsu.edu.ph
+- 09925915896
+- 09772104738
